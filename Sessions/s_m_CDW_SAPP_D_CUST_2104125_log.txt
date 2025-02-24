@@ -1,0 +1,123 @@
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6014 : Initializing session [s_m_CDW_SAPP_D_CUST_2104125] at [Mon Mar 14 05:08:29 2022].
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6683 : Repository Name: [Repo_Academy]
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6684 : Server Name: [INT_RepoAcademy]
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6686 : Folder: [Customer_Information_System]
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6685 : Workflow: [wf_m_CDW_SAPP_CUST_2104125] Run Instance Name: [] Run Id: [96]
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6101 : Mapping name: m_CDW_SAPP_D_CUST_2104125 [version CheckedOut].
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6703 : Session [s_m_CDW_SAPP_D_CUST_2104125] is run by 64-bit Integration Service  [node01], version [10.1.0], build [0609].
+2022-03-14 05:08:29 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2022-03-14 05:08:29 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24058 : Running Partition Group [1].
+2022-03-14 05:08:29 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2022-03-14 05:08:29 : INFO : (712 | MONITOR) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2022-03-14 05:08:29 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2022-03-14 05:08:29 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24003 : Initializing session run.
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1569 : Server Mode: [ASCII]
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6151 : The session sort order is [Binary].
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6156 : Using low precision processing.
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6307 : DTM error log disabled. 
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7022 : TShmWriter: Initialized
+2022-03-14 05:08:29 : DEBUG : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7004 : Transformation Parse Warning [SUBSTR(CUST_PHONE,1,3)||'-'||SUBSTR(CUST_PHONE,4,3)||'-'||SUBSTR(CUST_PHONE,7,4) ]; transformation continues...
+2022-03-14 05:08:29 : DEBUG : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7004 : Transformation Parse Warning [<<PM Parse Warning>> [SUBSTR]: operand converted to a string
+... SUBSTR(>>>>CUST_PHONE<<<<,1,3)||'-'||SUBSTR(CUST_PHONE,4,3)||'-'||SUBSTR(CUST_PHONE,7,4) <<PM Parse Warning>> [SUBSTR]: operand converted to a string
+... SUBSTR(CUST_PHONE,1,3)||'-'||SUBSTR(>>>>CUST_PHONE<<<<,4,3)||'-'||SUBSTR(CUST_PHONE,7,4) <<PM Parse Warning>> [SUBSTR]: operand converted to a string
+... SUBSTR(CUST_PHONE,1,3)||'-'||SUBSTR(CUST_PHONE,4,3)||'-'||SUBSTR(>>>>CUST_PHONE<<<<,7,4) ]; transformation continues...
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6007 : DTM initialized successfully for session [s_m_CDW_SAPP_D_CUST_2104125]
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2022-03-14 05:08:29 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Mon Mar 14 05:08:29 2022)
+2022-03-14 05:08:29 : INFO : (712 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2022-03-14 05:08:29 : INFO : (712 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : DBG_21349 : No load constraints for Target [TRG_CDW_SAPP_D_CUST_2104125]. It does not reference any primary table from the same active source or transaction generator.
+2022-03-14 05:08:29 : INFO : (712 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : DBG_21104 : Determining truncate order for [TRG_CDW_SAPP_D_CUST_2104125] [instance id:10]
+2022-03-14 05:08:29 : INFO : (712 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : DBG_21531 :     Truncate order for [TRG_CDW_SAPP_D_CUST_2104125] [instance id:10] determined successfully
+2022-03-14 05:08:29 : INFO : (712 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [TRG_CDW_SAPP_D_CUST_2104125]. : (Mon Mar 14 05:08:29 2022)
+2022-03-14 05:08:29 : INFO : (712 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : WRT_8022 : WRT_8022 Truncate table for table [TRG_CDW_SAPP_D_CUST_2104125] succeeded. : (Mon Mar 14 05:08:29 2022)
+2022-03-14 05:08:29 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Mon Mar 14 05:08:29 2022)
+2022-03-14 05:08:29 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24006 : Starting data movement.
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 1219648 bytes and Block size is 65536 bytes.
+2022-03-14 05:08:29 : INFO : (712 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2022-03-14 05:08:29 : INFO : (712 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21438 : Reader: Source is [orcl1], user [infoadmin]
+2022-03-14 05:08:29 : INFO : (712 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2022-03-14 05:08:29 : INFO : (712 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [7].
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8147 : Writer: Target is database [orcl1], user [infoadmin], bulk mode [OFF]
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.1.0\server\infa_shared\BadFiles\trg_cdw_sapp_d_cust_21041251.bad] (initial size [14964]).
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table TRG_CDW_SAPP_D_CUST_2104125 :SQL INSERT statement:
+INSERT INTO TRG_CDW_SAPP_D_CUST_2104125(CUST_ID,CUST_F_NAME,CUST_M_NAME,CUST_L_NAME,CUST_SSN,CUST_STREET,CUST_CITY,CUST_STATE,CUST_COUNTRY,CUST_ZIP,CUST_PHONE,CUST_EMAIL)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table TRG_CDW_SAPP_D_CUST_2104125 :SQL UPDATE statement:
+UPDATE TRG_CDW_SAPP_D_CUST_2104125 SET CUST_F_NAME = ?, CUST_M_NAME = ?, CUST_L_NAME = ?, CUST_SSN = ?, CUST_STREET = ?, CUST_CITY = ?, CUST_STATE = ?, CUST_COUNTRY = ?, CUST_ZIP = ?, CUST_PHONE = ?, CUST_EMAIL = ? WHERE CUST_ID = ?
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table TRG_CDW_SAPP_D_CUST_2104125 :SQL DELETE statement:
+DELETE FROM TRG_CDW_SAPP_D_CUST_2104125 WHERE CUST_ID = ?
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [TRG_CDW_SAPP_D_CUST_2104125]
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8003 : Writer initialization complete.
+2022-03-14 05:08:29 : INFO : (712 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8005 : Writer run started.
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Mon Mar 14 05:08:29 2022
+
+Target tables:
+
+     TRG_CDW_SAPP_D_CUST_2104125
+
+
+2022-03-14 05:08:29 : INFO : (712 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4010 : SQ instance [SQ_SRC_CDW_SAPP_CUST_EMP_2104125] SQL Query [SELECT SRC_CDW_SAPP_CUST_EMP_2104125.FIRST_NAME, SRC_CDW_SAPP_CUST_EMP_2104125.MIDDLE_NAME, SRC_CDW_SAPP_CUST_EMP_2104125.LAST_NAME, SRC_CDW_SAPP_CUST_EMP_2104125.SSN, SRC_CDW_SAPP_CUST_EMP_2104125.APT_NO, SRC_CDW_SAPP_CUST_EMP_2104125.STREET_NAME, SRC_CDW_SAPP_CUST_EMP_2104125.CUST_CITY, SRC_CDW_SAPP_CUST_EMP_2104125.CUST_STATE, SRC_CDW_SAPP_CUST_EMP_2104125.CUST_COUNTRY, SRC_CDW_SAPP_CUST_EMP_2104125.CUST_ZIP, SRC_CDW_SAPP_CUST_EMP_2104125.CUST_PHONE, SRC_CDW_SAPP_CUST_EMP_2104125.CUST_EMAIL FROM SRC_CDW_SAPP_CUST_EMP_2104125]
+2022-03-14 05:08:29 : INFO : (712 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Mon Mar 14 05:08:29 2022)
+2022-03-14 05:08:29 : INFO : (712 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Mon Mar 14 05:08:29 2022)
+2022-03-14 05:08:29 : INFO : (712 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16019 : Read [6] rows, read [0] error rows for source table [SRC_CDW_SAPP_CUST_EMP_2104125] instance name [SRC_CDW_SAPP_CUST_EMP_2104125]
+2022-03-14 05:08:29 : INFO : (712 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2022-03-14 05:08:29 : INFO : (712 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_SRC_CDW_SAPP_CUST_EMP_2104125]. Total errors [0] 
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8167 : Start loading table [TRG_CDW_SAPP_D_CUST_2104125] at: Mon Mar 14 05:08:29 2022
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8168 : End loading table [TRG_CDW_SAPP_D_CUST_2104125] at: Mon Mar 14 05:08:29 2022
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8141 : 
+Commit on end-of-data  Mon Mar 14 05:08:29 2022
+===================================================
+
+WRT_8036 Target: TRG_CDW_SAPP_D_CUST_2104125 (Instance Name: [TRG_CDW_SAPP_D_CUST_2104125])
+WRT_8038 Inserted rows - Requested: 6          Applied: 6          Rejected: 0          Affected: 6         
+
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8035 : Load complete time: Mon Mar 14 05:08:29 2022
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: TRG_CDW_SAPP_D_CUST_2104125 (Instance Name: [TRG_CDW_SAPP_D_CUST_2104125])
+WRT_8038 Inserted rows - Requested: 6          Applied: 6          Rejected: 0          Affected: 6         
+
+
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2022-03-14 05:08:29 : INFO : (712 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8006 : Writer run completed.
+2022-03-14 05:08:29 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_SRC_CDW_SAPP_CUST_EMP_2104125] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_SRC_CDW_SAPP_CUST_EMP_2104125] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [TRG_CDW_SAPP_D_CUST_2104125] has completed. The total run time was insufficient for any meaningful statistics.
+
+2022-03-14 05:08:29 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Mon Mar 14 05:08:29 2022)
+2022-03-14 05:08:29 : INFO : (712 | POST-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [8].
+2022-03-14 05:08:29 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Mon Mar 14 05:08:29 2022)
+2022-03-14 05:08:29 : INFO : (712 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2022-03-14 05:08:30 : INFO : (712 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2022-03-14 05:08:30 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24012 : Session run completed successfully.
+2022-03-14 05:08:30 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2022-03-14 05:08:30 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6252 : Source Load Summary.
+2022-03-14 05:08:30 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [SQ_SRC_CDW_SAPP_CUST_EMP_2104125] (Instance Name: [SQ_SRC_CDW_SAPP_CUST_EMP_2104125])
+	 Output Rows [6], Affected Rows [6], Applied Rows [6], Rejected Rows [0]
+2022-03-14 05:08:30 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6253 : Target Load Summary.
+2022-03-14 05:08:30 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [TRG_CDW_SAPP_D_CUST_2104125] (Instance Name: [TRG_CDW_SAPP_D_CUST_2104125])
+	 Output Rows [6], Affected Rows [6], Applied Rows [6], Rejected Rows [0]
+2022-03-14 05:08:30 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6023 : 
+===================================================
+
+2022-03-14 05:08:30 : INFO : (712 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6020 : Session [s_m_CDW_SAPP_D_CUST_2104125] completed at [Mon Mar 14 05:08:30 2022].
