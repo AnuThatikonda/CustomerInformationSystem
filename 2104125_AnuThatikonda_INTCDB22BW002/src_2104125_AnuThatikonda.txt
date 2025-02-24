@@ -1,0 +1,11 @@
+EmpId,EmpName,Salary,DeptId
+1,John,10000,10
+2,Mary,20000,20
+3,Maha,30000,30
+4,Ravi,11000,10
+5,Sam,21500,20
+6,Tom,35000,30
+7,Deepa,12000,10
+8,Sara,22200,20
+9,Karthik,33000,30
+10,Sen,15500,10
